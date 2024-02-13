@@ -15,6 +15,16 @@ type module kre in package.json me
 
 5. **validator**: `validator` is a library for validating and sanitizing strings. It offers a wide range of validation functions for common use cases such as checking email addresses, URLs, dates, and more. Additionally
 
-TXhdWAb4i1PPDiZB
 
-mongodb+srv://hariomvm21:TXhdWAb4i1PPDiZB@cluster0.q1zqegv.mongodb.net/
+<!-- For Existing Repo -->
+<!-- git add .
+git commit -m "updated app.js and reservation.js"
+git push -u origin master -->
+
+
+<!-- For New Repo -->
+<!-- git init
+git add.
+git commit -m "first commit"
+git add remote origin URL
+git push -u origin master -->
