@@ -14,7 +14,3 @@ type module kre in package.json me
 4. **mongoose**: `mongoose` is an Object Data Modeling (ODM) library for MongoDB and Node.js.  allowing you to define schemas, perform CRUD operations
 
 5. **validator**: `validator` is a library for validating and sanitizing strings. It offers a wide range of validation functions for common use cases such as checking email addresses, URLs, dates, and more. Additionally
-
-TXhdWAb4i1PPDiZB
-
-mongodb+srv://hariomvm21:TXhdWAb4i1PPDiZB@cluster0.q1zqegv.mongodb.net/
