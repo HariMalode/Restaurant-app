@@ -6,6 +6,8 @@ import {Reservation} from "../models/reservationSchema.js";
 
 //routes me use kiye
 export const sendReservation = async (req, res,next) => {
+    console.log("Hello from Send")
+
     const {firstName, lastName, email, phone, time, date} = req.body;
     
     if(!firstName ||!lastName ||!email ||!phone ||!time ||!date){
@@ -33,5 +35,7 @@ export const sendReservation = async (req, res,next) => {
         else{
             return next(new ErrorHandler("Something went wrong", 500));
         }
+        // console.log(error.message)
+        // res.json({msg : error.message})
     }
 }

@@ -9,12 +9,13 @@ import reservationRouter from "./routes/reservationRoute.js"
 const app = express()
 dotenv.config({path:"./config/config.env"})
 
-//connecting frontend to backend
+// connecting frontend to backend
 app.use(cors({
-    origin:[process.env.FRONTEND_URI], ///path
+    origin: 'http://localhost:5173', ///path
     methods:["POST"],//Konse method hai
     credentials: true
 }))
+// app.use(cors());
 
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
