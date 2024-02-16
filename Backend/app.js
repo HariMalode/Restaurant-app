@@ -11,7 +11,7 @@ dotenv.config();
 
 // connecting frontend to backend
 app.use(cors({
-    origin: 'http://localhost:5173', ///path
+    origin: 'https://hari-restaurant-app.onrender.com', ///path
     methods:["POST"],//Konse method hai
     credentials: true
 }))
