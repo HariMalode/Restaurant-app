@@ -7,7 +7,7 @@ import reservationRouter from "./routes/reservationRoute.js"
 // udhar ka name , jo import krna vahi name hoga to {} isme insert
 
 const app = express()
-dotenv.config({path:"./config/config.env"})
+dotenv.config();
 
 // connecting frontend to backend
 app.use(cors({
